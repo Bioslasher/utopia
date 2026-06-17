@@ -1,0 +1,337 @@
+/* =====================================================
+   GŁÓWNY LAYOUT
+===================================================== */
+
+#middle {
+    width: 830px;
+    overflow: hidden;
+    box-shadow: none !important;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+#account-header {
+    position: absolute !important;
+
+    left: 10px !important;
+    right: auto !important;
+
+    top: 1295px !important;
+}
+
+#account-details {
+    width: 180px !important;
+    left: 120px !important;
+    top: 1138px !important;
+
+    right: auto !important;
+}
+
+#header-navigation-2nd-level .navigation {
+    min-width: 71px !important;
+    position: relative !important;
+    left: -16px !important;
+}
+
+#header-logo {
+    transform: scale(1.20) !important;
+    transform-origin: left top !important;
+    top: 10px !important;
+}
+
+
+/* =====================================================
+   IRC CHAT
+===================================================== */
+
+#ircchat {
+    width: 799px !important;
+    font-family: KnightsQuestRegular;
+    font-size: 18px;
+    font-weight: normal;
+
+    color: #f9f8f8;
+
+    border: 2px solid #555555;
+    border-radius: 4px;
+
+    background-color: #29261c;
+    background: radial-gradient(
+        ellipse at center,
+        #7b7354 0%,
+        #29261c 100%
+    );
+}
+
+#irccontainer {
+    border: none !important;
+    height: 22px !important;
+}
+
+#showchat table,
+#showchat tr,
+#showchat td,
+#showchat th {
+    border: none !important;
+}
+
+#showchat tr td:first-child {
+    width: 45px !important;
+    color: #ddd;
+}
+
+#showchat tr td:nth-child(2) {
+    padding-right: 10px !important;
+    height: 22px !important;
+}
+
+/* =====================================================
+   IRC BUTTONS
+===================================================== */
+
+#ircchat button,
+#showchat button,
+#closeirc,
+#refreshchat,
+#resizeirc {
+
+    background: linear-gradient(
+        to bottom,
+        #4a4a4a,
+        #2f2f2f
+    ) !important;
+
+    border: 1px solid #555 !important;
+
+    color: #e5e5e5 !important;
+    text-shadow: none !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 11px !important;
+
+    height: 20px !important;
+    padding: 0 6px !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.08),
+        0 1px 2px rgba(0,0,0,.3) !important;
+}
+
+#ircchat button:hover,
+#showchat button:hover,
+#closeirc:hover,
+#refreshchat:hover,
+#resizeirc:hover {
+    color: #ffcc33 !important;
+    border-color: #777 !important;
+}
+
+/* =====================================================
+   GAME NAVIGATION
+===================================================== */
+
+#game-navigation * {
+    text-shadow: none !important;
+}
+
+#header-navigation {
+    zoom: 0.92;
+    left: 325px;
+}
+
+#header-navigation-2nd-level {
+    left: 315px;
+  
+}
+
+/* =====================================================
+   RESOURCE BAR
+===================================================== */
+
+#resource-bar thead th {
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+
+    color: #c9b27a !important;
+    text-shadow: none !important;
+}
+
+#resource-bar tbody th {
+
+    background: linear-gradient(
+        to bottom,
+        #3b3b3b 0%,
+        #2b2b2b 50%,
+        #1f1f1f 100%
+    ) !important;
+
+    color: #f5f5f5 !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+
+    text-shadow: none !important;
+
+    border-right: 1px solid #555 !important;
+    border-bottom: 1px solid #555 !important;
+
+    padding: 2px 3px !important;
+}
+
+#resource-bar tbody th:hover {
+    color: #ffcc33 !important;
+}
+
+/* =====================================================
+   ORANGE NUMBERS
+===================================================== */
+
+font[color="orange"] {
+    color: #ffb000 !important;
+    font-weight: bold !important;
+}
+
+/* =====================================================
+   BOT PANEL
+===================================================== */
+
+#overlay {
+    background: transparent !important;
+    border: none !important;
+
+    color: #c9b27a !important;
+    text-shadow: none !important;
+
+    padding: 0 !important;
+    
+    font-family: KnightsQuestRegular !important;
+    font-size: 18px !important;
+    font-weight: normal !important;
+
+  
+   
+}
+
+/* Pole komendy */
+
+#botcommand {
+
+    width: 400px !important;
+
+    background: linear-gradient(
+        to bottom,
+        #1f1f1f,
+        #101010
+    ) !important;
+
+    border: 1px solid #555 !important;
+
+    color: #f0f0f0 !important;
+    text-shadow: none !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 12px !important;
+
+    height: 18px !important;
+    line-height: 18px !important;
+
+    padding: 1px 4px !important;
+    margin-left: 4px !important;
+}
+
+/* Przyciski BOT */
+
+#getresponse,
+#wotresponse,
+#overlay button {
+
+    background: linear-gradient(
+        to bottom,
+        #4a4a4a,
+        #2f2f2f
+    ) !important;
+
+    border: 1px solid #555 !important;
+
+    color: #e5e5e5 !important;
+    text-shadow: none !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 11px !important;
+
+    height: 20px !important;
+    padding: 0 6px !important;
+}
+
+#getresponse:hover,
+#wotresponse:hover,
+#overlay button:hover {
+    color: #ffcc33 !important;
+    border-color: #777 !important;
+}
+
+/* =====================================================
+   MUNKBOT BUTTONS
+===================================================== */
+
+.munkbutton {
+
+    background: linear-gradient(
+        to bottom,
+        #4a4a4a,
+        #2f2f2f
+    ) !important;
+
+    border: 1px solid #555 !important;
+
+    color: #e5e5e5 !important;
+    text-shadow: none !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 11px !important;
+
+    height: 22px !important;
+    padding: 0 8px !important;
+
+    border-radius: 2px !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.08),
+        0 1px 2px rgba(0,0,0,.3) !important;
+
+    cursor: pointer;
+}
+
+.munkbutton:hover {
+    color: #ffcc33 !important;
+    border-color: #777 !important;
+}
+
+/* Bot prefs / bot / IRC */
+
+#toggler2,
+#getbot,
+#openirc {
+    width: 58px !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+#custom_intel_options {
+    position: relative !important;
+}
+
+#account-container {
+    position: relative !important;
+    left: 0 !important;
+    top: 10px !important;
+    right: auto !important;
+}
+
+
+
+
